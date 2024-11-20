@@ -112,7 +112,7 @@ body{
     background-position: center;
 }
 .headerImg3{
-    background-image: url(media/image1.png);
+    background-image: url(media/bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -138,6 +138,7 @@ body{
 }
 .investCard>div:nth-child(2){
     font-size: 32px;
+  
 }
 .pageButton{
     background: radial-gradient(circle, #006CBB 1%, #013789 99%);
@@ -186,6 +187,7 @@ body{
     }
 }
 @media screen and (max-width:768px) {
+ 
     .footer-logo{
         text-align: center;
         img{
@@ -209,12 +211,5 @@ body{
     }
     .hearingButton{
         position: static;
-    }
-    .mf01{
-        font-size: 40px;
-    }
-    .mb20{
-        margin-top: 4rem;
-        margin-bottom: 4rem;
     }
 }
