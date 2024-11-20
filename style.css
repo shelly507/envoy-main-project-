@@ -112,7 +112,7 @@ body{
     background-position: center;
 }
 .headerImg3{
-    background-image: url(media/image1.png);
+    background-image: url(media/bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -138,6 +138,7 @@ body{
 }
 .investCard>div:nth-child(2){
     font-size: 32px;
+  
 }
 .pageButton{
     background: radial-gradient(circle, #006CBB 1%, #013789 99%);
@@ -186,6 +187,7 @@ body{
     }
 }
 @media screen and (max-width:768px) {
+ 
     .footer-logo{
         text-align: center;
         img{
@@ -207,5 +209,37 @@ body{
     }
     .hearingButton{
         position: static;
+    }
+    .mf3{
+        font-size: 41px;
+    }
+    .mf2{
+        font-size: 28px;
+    }
+    .investCard>div:nth-child(1){
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .investCard>div:nth-child(2){
+        font-size: 22px;
+        text-align: center;
+    }
+    .mf01 {
+        font-size: 44px;
+    }
+    .mf02 {
+        font-size: 30px;
+    }
+    .mb20 {
+        margin-bottom: 2rem;
+    }
+    .mf12 {
+        font-size: 33px;
+        text-align: center;
+    }
+    .mf21 {
+        font-size: 20px;
+        text-align: center;
     }
 }
