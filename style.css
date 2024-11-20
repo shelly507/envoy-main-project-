@@ -193,10 +193,12 @@ body{
         }
     }  
     .headerText{
-        font-size: 3rem;
+        font-size: 1rem;
+    
     }
     .pageButton2{
         width: 20rem;
+        font-size: 20px;
     }
     .header-logo{
         height: 1.5rem;
@@ -207,5 +209,12 @@ body{
     }
     .hearingButton{
         position: static;
+    }
+    .mf01{
+        font-size: 40px;
+    }
+    .mb20{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 }
