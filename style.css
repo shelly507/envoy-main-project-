@@ -14,6 +14,9 @@ body{
 }
 .mf02{
     font-size: 72px;
+    @media screen and (max-width:768px) {
+        font-size: 40px;
+    }
 }
 .mf1{
     font-size: 50px;
@@ -195,12 +198,10 @@ body{
         }
     }  
     .headerText{
-        font-size: 1rem;
-    
+        font-size: 3rem;
     }
     .pageButton2{
         width: 20rem;
-        font-size: 20px;
     }
     .header-logo{
         height: 1.5rem;
@@ -211,5 +212,37 @@ body{
     }
     .hearingButton{
         position: static;
+    }
+    .mf3{
+        font-size: 41px;
+    }
+    .mf2{
+        font-size: 28px;
+    }
+    .investCard>div:nth-child(1){
+        font-size: 44px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .investCard>div:nth-child(2){
+        font-size: 22px;
+        text-align: center;
+    }
+    .mf01 {
+        font-size: 44px;
+    }
+    .mf02 {
+        font-size: 30px;
+    }
+    .mb20 {
+        margin-bottom: 2rem;
+    }
+    .mf12 {
+        font-size: 33px;
+        text-align: center;
+    }
+    .mf21 {
+        font-size: 20px;
+        text-align: center;
     }
 }
