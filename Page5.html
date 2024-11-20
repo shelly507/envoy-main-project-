@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 headerImg2">
+                <div id="header"></div>
+                <div class="mf01 mt10 mb20 bold text-white text-center">
+                    <div>CONTACT US</div>
+                    
+                    </div>
+            </div>
+            <div class="col-md-8 col-11 mx-auto py-5">
+                <div class="row">
+                    <div class="col-md-12 text-center bold mf01 text-white mb-5">
+                        Get In Touch
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="mb-3 d-flex gap-2">
+                            <div class="text-white fs-3 mb-3">
+                                <div class="rounded-circle bg-darkBlue px-3 py-2"><i class="fa-solid fa-location-dot"></i></div>
+                            </div>
+                            <div class="text-white">
+                                <div class="mf12">Head Office</div>
+                                <div class="mf4">4875 White Bear Pkwy, White Bear Lake, 
+                                    MN 55110, United States
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 gap-2">
+                            <div class="text-white fs-3 mb-3">
+                                <div class="rounded-circle bg-darkBlue px-3 py-2"><i class="fa-solid fa-phone-volume"></i></div>
+                            </div>
+                            <div class="text-white">
+                                <div class="mf12">Call Us</div>
+                                <div class="mf4">+1 877-900-3277
+                                </div>
+                            </div>
+                        </div>
+                        <div class="justify-content-center text-white gap-4 fs-4 d-flex">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <label for="name" class="fs-6">Name</label>
+                                        <input type="text" id="name" class="form-control" >
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="lastName" class="fs-6">Last Name</label>
+                                        <input type="text" id="lastName" class="form-control" >
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="email" class="fs-6">Email</label>
+                                        <input type="email" id="email" class="form-control" >
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="message" class="fs-6">Message</label>
+                                        <textarea id="message" class="form-control" rows="4" ></textarea>
+                                    </div>
+                                    <div class="col-12 mb-3  text-center">
+                                        <button class="pageButton w-100">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        <script>
+            $(function () {
+              $("#header").load("header.html");
+              $("#footer").load("footer.html");
+            });
+          </script>
+    </div>
+</body>
+</html>
